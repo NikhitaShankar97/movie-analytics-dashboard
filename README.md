@@ -59,7 +59,7 @@ We designed an interactive dashboard titled **Cinematic Insights** with the foll
 
 ## Project Files
 - `processed_movie_ratings.csv`: Cleaned dataset used in Tableau.
-- `dashboard_user_engagement.twbx`: Tableau workbook file containing the visualizations.
+- `cinematic_insights_dashboard.twbx`: Tableau workbook file containing the visualizations.
 - `EDA_Data_cleaning.ipynb`: Python notebook for preprocessing and cleaning the data.
 - `README.md`: Project documentation (this file).
 
@@ -92,4 +92,4 @@ For further information or inquiries, please reach out to me:
 - **Name:** Nikhita Shankar
 - **Email:** nikhita4@illinois.edu
 - **Phone:** +1 447-902-6109
-- **LinkedIn:** [Nikhita Shankar](https://www.linkedin.com/in/nikhitashankar)
+- **LinkedIn:** [Nikhita Shankar](https://www.linkedin.com/in/nikhita-shankar-/)
