@@ -1,4 +1,4 @@
-# Cinematic Insights Dashboard 
+# Cinematic Insights Dashboard Project
 
 ## Overview
 This project involves creating an interactive dashboard to explore trends and insights from movie ratings data. The goal is to analyze user engagement, top-rated genres, yearly distribution of ratings, and top movies, providing an intuitive visualization for users.
@@ -59,7 +59,7 @@ We designed an interactive dashboard titled **Cinematic Insights** with the foll
 
 ## Project Files
 - `processed_movie_ratings.csv`: Cleaned dataset used in Tableau.
-- `cinematic_insights_dashboard.twbx`: Tableau workbook file containing the visualizations.
+- `dashboard_user_engagement.twbx`: Tableau workbook file containing the visualizations.
 - `EDA_Data_cleaning.ipynb`: Python notebook for preprocessing and cleaning the data.
 - `README.md`: Project documentation (this file).
 
@@ -85,3 +85,11 @@ We designed an interactive dashboard titled **Cinematic Insights** with the foll
 
 ## Acknowledgments
 This project was made possible with the support of various open-source libraries and visualization tools. Special thanks to the Python and Tableau communities for their invaluable resources and documentation.
+
+## Contact Information
+For further information or inquiries, please reach out to me:
+
+- **Name:** Nikhita Shankar
+- **Email:** nikhita4@illinois.edu
+- **Phone:** +1 447-902-6109
+- **LinkedIn:** [Nikhita Shankar](https://www.linkedin.com/in/nikhitashankar)
