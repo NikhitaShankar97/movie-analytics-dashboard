@@ -3,6 +3,9 @@
 ## Overview
 This project involves creating an interactive dashboard to explore trends and insights from movie ratings data. The goal is to analyze user engagement, top-rated genres, yearly distribution of ratings, and top movies, providing an intuitive visualization for users.
 
+### Dataset Source
+The dataset for this project was obtained from [**MovieLens**](https://grouplens.org/datasets/movielens/), a research project run by the GroupLens research lab at the University of Minnesota. It contains user ratings, movie metadata, and timestamped interactions, making it ideal for exploring trends in movie engagement, genre popularity, and rating patterns.
+
 ## Project Steps
 
 ### 1. Data Preparation (Python)
@@ -56,7 +59,7 @@ We designed an interactive dashboard titled **Cinematic Insights** with the foll
 
 ## Project Files
 - `processed_movie_ratings.csv`: Cleaned dataset used in Tableau.
-- `dashboard_user_engagement.twbx`: Tableau workbook file containing the visualizations.
+- `cinematic_insights_dashboard.twbx`: Tableau workbook file containing the visualizations.
 - `EDA_Data_cleaning.ipynb`: Python notebook for preprocessing and cleaning the data.
 - `README.md`: Project documentation (this file).
 
