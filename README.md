@@ -1,4 +1,4 @@
-# Cinematic Insights Dashboard Project
+# Cinematic Insights Dashboard 
 
 ## Overview
 This project involves creating an interactive dashboard to explore trends and insights from movie ratings data. The goal is to analyze user engagement, top-rated genres, yearly distribution of ratings, and top movies, providing an intuitive visualization for users.
