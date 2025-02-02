@@ -6,6 +6,14 @@ This project involves creating an interactive dashboard to explore trends and in
 ### Dataset Source
 The dataset for this project was obtained from [**MovieLens**](https://grouplens.org/datasets/movielens/), a research project run by the GroupLens research lab at the University of Minnesota. It contains user ratings, movie metadata, and timestamped interactions, making it ideal for exploring trends in movie engagement, genre popularity, and rating patterns.
 
+---
+
+## Technologies Used
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+
+---
+
 ## Project Steps
 
 ### 1. Data Preparation (Python)
@@ -18,9 +26,9 @@ We started by cleaning and preprocessing the raw data using Python.
   - Exported the processed data to CSV files named `processed_movie_ratings.csv` and `user_activity_by_hour.csv`.
 
 ### 2. Data Import (Tableau)
-- Imported the cleaned CSV files into Tableau.
+- Imported the cleaned data (`processed_movie_ratings.csv` and `user_activity_by_hour.csv`) into Tableau.
 - Verified that fields such as `Genres Split`, `User Id`, `Rating`, and `Timestamp` were correctly formatted.
-- Joined the `processed_movie_ratings.csv` with `user_activity_by_hour.csv` using **User Id** and **Timestamp**.
+- Joined the CSV files using **User Id** and **Timestamp** to create a unified dataset for analysis.
 
 ### 3. Data Exploration
 Several visualizations were designed to extract meaningful insights from the data:
@@ -57,40 +65,48 @@ We designed an interactive dashboard titled **Cinematic Insights** with the foll
    - When attempting to publish the workbook to Tableau Public, an error occurred due to the data size exceeding Tableau Public's limit of **15,000,000 rows**.
    - As a result, the workbook was not uploaded to Tableau Public. Alternatives include using Tableau Server, Tableau Online, or reducing the data volume.
 
+---
+
 ## Project Files
 - `processed_movie_ratings.csv`: Cleaned dataset used in Tableau.
-- `user_activity_by_hour.csv`: Activity-based dataset created from Python.
+- `user_activity_by_hour.csv`: Additional dataset summarizing user activity.
 - `dashboard_user_engagement.twbx`: Tableau workbook file containing the visualizations.
 - `EDA_Data_cleaning.ipynb`: Python notebook for preprocessing and cleaning the data.
-- `Cinematic_Insights_Dashboard_Report.pdf`: Detailed project report with dashboard screenshots and descriptions.
+- `Cinematic_Insights_Dashboard_Report.pdf`: Project report summarizing key visuals and insights.
 - `README.md`: Project documentation (this file).
+
+---
 
 ## Usage Instructions
 1. Open the Tableau workbook.
 2. Navigate through the dashboard using the buttons on the navigation bar.
 3. Use the available filters to customize your view and explore the data.
 
-## Technologies Used
-- **Python:** Data cleaning and preprocessing.
-- **Tableau:** Data visualization and dashboard creation.
-- **CSV:** Data storage format.
+---
 
 ## Project Insights
 - Peak engagement occurs in the evening hours.
 - Genres like Drama and Thriller consistently receive high average ratings.
 - Movie ratings trends show fluctuations over the years, influenced by various factors.
 
+---
+
 ## Future Improvements
 - Integrate additional data sources, such as box office performance or audience reviews.
 - Implement predictive analytics to forecast future trends.
 - Enhance interactivity with more dynamic filters and drill-down capabilities.
 
+---
+
 ## Acknowledgments
 This project was made possible with the support of various open-source libraries and visualization tools. Special thanks to the Python and Tableau communities for their invaluable resources and documentation.
+
+---
 
 ## Contact Information
 For further information or inquiries, please reach out to me:
 
 - **Name:** Nikhita Shankar
 - **Email:** nikhita4@illinois.edu
+- **Phone:** +1 447-902-6109
 - **LinkedIn:** [Nikhita Shankar](https://www.linkedin.com/in/nikhitashankar)
