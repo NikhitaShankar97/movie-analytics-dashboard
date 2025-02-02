@@ -15,10 +15,10 @@ We started by cleaning and preprocessing the raw data using Python.
   - Imported the movie ratings dataset from **MovieLens**.
   - Parsed and converted timestamp fields to date formats.
   - Split genres into separate rows for easier analysis.
-  - Exported the processed data to a CSV file for Tableau.
+  - Exported the processed data to CSV files named `processed_movie_ratings.csv` and `user_activity_by_hour.csv`.
 
 ### 2. Data Import (Tableau)
-- Imported the cleaned `processed_movie_ratings.csv` file into Tableau.
+- Imported the cleaned CSV files into Tableau.
 - Verified that fields such as `Genres Split`, `User Id`, `Rating`, and `Timestamp` were correctly formatted.
 - Joined the `processed_movie_ratings.csv` with `user_activity_by_hour.csv` using **User Id** and **Timestamp**.
 
@@ -59,8 +59,10 @@ We designed an interactive dashboard titled **Cinematic Insights** with the foll
 
 ## Project Files
 - `processed_movie_ratings.csv`: Cleaned dataset used in Tableau.
-- `cinematic_insights_dashboard.twbx`: Tableau workbook file containing the visualizations.
+- `user_activity_by_hour.csv`: Activity-based dataset created from Python.
+- `dashboard_user_engagement.twbx`: Tableau workbook file containing the visualizations.
 - `EDA_Data_cleaning.ipynb`: Python notebook for preprocessing and cleaning the data.
+- `Cinematic_Insights_Dashboard_Report.pdf`: Detailed project report with dashboard screenshots and descriptions.
 - `README.md`: Project documentation (this file).
 
 ## Usage Instructions
@@ -91,4 +93,4 @@ For further information or inquiries, please reach out to me:
 
 - **Name:** Nikhita Shankar
 - **Email:** nikhita4@illinois.edu
-- **LinkedIn:** [Nikhita Shankar](https://www.linkedin.com/in/nikhita-shankar-/)
+- **LinkedIn:** [Nikhita Shankar](https://www.linkedin.com/in/nikhitashankar)
