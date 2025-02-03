@@ -108,5 +108,4 @@ For further information or inquiries, please reach out to me:
 
 - **Name:** Nikhita Shankar
 - **Email:** nikhita4@illinois.edu
-- **Phone:** +1 447-902-6109
 - **LinkedIn:** [Nikhita Shankar](https://www.linkedin.com/in/nikhitashankar)
